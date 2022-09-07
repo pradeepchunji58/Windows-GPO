@@ -26,3 +26,19 @@ The [Compliance](./Compliance/) folder contains a Nessus (aka [ACAS](http://www.
 
 ## Links
 * [Windows Firewall with Advanced Security Deployment Guide](https://technet.microsoft.com/en-us/library/jj717241(v=ws.11).aspx)
+
+
+Premise
+Received the following error during code commit.
+
+fatal: no email was given and auto-detection is disabled
+
+Solution
+This error is due to the fact that there’s no local user setting found. We need to update this setting which will be used to create logs, on code commit.
+
+Launch Git Bash.
+Run the following cmd
+1
+2
+git config --global user.name "your_name"
+git config --global user.email "your_email_id"
