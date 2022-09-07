@@ -1,7 +1,7 @@
 How to Track Who Deleted a File from Your Windows File Servers
 
 /
-22222
+"XXX"
 # Windows Firewall
 A [Group Policy Object](./Group%20Policy%20Objects/Computer/) for the Windows 10 firewall is included in the SHB. The GPO contains a basic configuration to enable the built in firewall and logging capabilities. 
 
