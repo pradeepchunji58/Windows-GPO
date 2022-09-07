@@ -1,8 +1,5 @@
 How to Track Who Deleted a File from Your Windows File Servers
 
-<p align="center">
-  <img src="https://github.com/VJAI/about.me/blob/master/logo.png" />
-</p>
 
 # VB Code git username and email saved during configuration
 
