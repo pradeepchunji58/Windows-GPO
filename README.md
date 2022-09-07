@@ -1,7 +1,7 @@
 How to Track Who Deleted a File from Your Windows File Servers
 
 /
-"XXX"
+
 # Windows Firewall
 A [Group Policy Object](./Group%20Policy%20Objects/Computer/) for the Windows 10 firewall is included in the SHB. The GPO contains a basic configuration to enable the built in firewall and logging capabilities. 
 
@@ -27,18 +27,23 @@ The [Compliance](./Compliance/) folder contains a Nessus (aka [ACAS](http://www.
 ## Links
 * [Windows Firewall with Advanced Security Deployment Guide](https://technet.microsoft.com/en-us/library/jj717241(v=ws.11).aspx)
 
+## List all variables set in the config file, along with their values.
+```
+git config --list
 
-Premise
+```
+
+## Premise
 Received the following error during code commit.
 
 fatal: no email was given and auto-detection is disabled
 
-Solution
+## Solution
 This error is due to the fact that there’s no local user setting found. We need to update this setting which will be used to create logs, on code commit.
 
 Launch Git Bash.
 Run the following cmd
-1
-2
-git config --global user.name "your_name"
-git config --global user.email "your_email_id"
+```` 
+1 git config --global user.name "your_name"
+2 git config --global user.email "your_email_id"
+`````
