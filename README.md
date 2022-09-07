@@ -2,7 +2,7 @@ How to Track Who Deleted a File from Your Windows File Servers
 
 /
 
-# Windows Firewall
+# VB Code git username and email saved during configuration
 
 ## Links
 * [How to know the git username and email saved during configuration?](https://stackoverflow.com/questions/46941346/how-to-know-the-git-username-and-email-saved-during-configuration)
