@@ -44,6 +44,6 @@ This error is due to the fact that there’s no local user setting found. We nee
 Launch Git Bash.
 Run the following cmd
 ```` 
-1 git config --global user.name "your_name"
-2 git config --global user.email "your_email_id"
+git config --global user.name "your_name"
+git config --global user.email "your_email_id"
 `````
