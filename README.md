@@ -1,5 +1,11 @@
 How to Track Who Deleted a File from Your Windows File Servers
-## VB Code
+
+/
+
+# Windows Firewall
+
+## Links
+* [How to know the git username and email saved during configuration?](https://stackoverflow.com/questions/46941346/how-to-know-the-git-username-and-email-saved-during-configuration)
 
 ## List all variables set in the config file, along with their values.
 ```
@@ -21,7 +27,3 @@ Run the following cmd
 git config --global user.name "your_name"
 git config --global user.email "your_email_id"
 `````
-
-
-## Links
-* [Windows Firewall with Advanced Security Deployment Guide](https://technet.microsoft.com/en-us/library/jj717241(v=ws.11).aspx)
